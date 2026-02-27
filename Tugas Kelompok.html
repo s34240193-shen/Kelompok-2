@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grid 4 Kolom Gambar</title>
+        <style>
+            .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 15px;
+            align-content: end;
+
+            }
+
+            .container img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            
+            }
+
+            *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+/*ubm header*/
+.ubm-header {
+background: #114f9f;
+height: 20%;
+width: auto;
+}
+.ubm-header img {
+height: 80px;
+}
+
+
+/* TOP BAR */
+.topbar{
+background:#114f9f;
+color:white;
+display:flex;
+justify-content:flex-end;
+gap: 30px;
+align-items:center;
+padding:15px 40px;
+
+}
+
+
+.top-menu{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+.top-menu li{
+cursor:pointer;
+}
+
+/* SECOND NAV */
+.main-nav{
+background:#f7a623;
+padding:12px 40px;
+}
+
+.main-nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+color:white;
+font-weight:500;
+}
+
+/* HERO SECTION */
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:60px 40px;
+background:#f2f2f2;
+}
+
+.hero-left img{
+width:400px;
+max-width:100%;
+}
+
+.hero-right{
+max-width:500px;
+}
+
+.hero-right h4{
+color:#114f9f;
+letter-spacing:3px;
+margin-bottom:10px;
+}
+
+.hero-right h1{
+font-size:60px;
+color:#0b2e8a;
+line-height:1;
+margin-bottom:20px;
+}
+
+.hero-right p{
+margin-bottom:8px;
+font-size:18px;
+}
+
+.ubmgambargede img{
+width: 90%;
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+.ubmgambargede{
+    text-align: center;
+}
+/* WHY SECTION */
+.why{
+background:#114f9f;
+color:white;
+padding:80px 40px;
+text-align:center;
+}
+
+.why h2{
+margin-bottom:50px;
+}
+
+.why-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:40px;
+}
+
+.why-text{
+max-width:400px;
+}
+
+.why-text h3{
+margin-bottom:10px;
+}
+
+.why-text button{
+margin-top:20px;
+padding:10px 20px;
+border:none;
+background:#114f9f;
+color:#ffffff;
+border-radius:20px;
+cursor:pointer;
+}
+
+.why-image img{
+width:350px;
+border-radius:20px;
+}
+.Berita-UBM{
+    background:#f7a623;
+    text-align: center;
+    padding:80px 40px;
+    color: white;
+}
+
+            </style>
+    </head>
+    <body>
+
+      
+        <div class="ubm-header">
+            <img class="ubm" src="c:\Users\tjhin\Downloads\Tugas kelompok 2 web\Logo-UBM-color.png" alt="ubm" />
+        </div>
+        
+    <ul class="topbar">
+        <li>Yayasan</li>
+        <li>Portal</li>
+        <li>Alumni</li>
+        <li>Karir</li>
+        <li>ID | EN</li>
+    </ul>
+
+
+   
+        <div class="Menu header">
+           <nav class="main-nav">
+    <ul>
+        <li>Tentang UBM</li>
+        <li>Program Studi</li>
+        <li>Aktivitas Kampus</li>
+        <li>Berita</li>
+        <li>Fasilitas</li>
+        <li>P3M</li>
+        <li>Join UBM</li>
+    </ul>
+</nav>
+        </div>
+        
+         <div class="ubmgambargede">
+            <img class="ubm" src="c:\Users\tjhin\Downloads\Tugas kelompok 2 web\images (7).jpg" alt="ubm gambar gede" />
+        </div>
+
+        <div class="Mengapa UBM">
+        <section class="why">
+            <h2>Mengapa di UBM</h2>
+        </div>
+<br>    
+        <div class="Gambar Akreditasi">
+            <br>    
+ <div class="why-container">
+    <br>    
+        <div class="why-text">
+            <h3>Akreditasi</h3>
+            <p>Program studi unggulan bagi mahasiswa berprestasi.</p>
+            <button>Lebih Lanjut</button>
+            
+        </div>
+
+        <div class="why-image">
+           <img class="ubm" src="c:\Users\tjhin\Downloads\Tugas kelompok 2 web\Screenshot 2026-02-27 091256.png" alt="ubm akreditasi">
+        </div>
+    </div>
+</section>
+
+         <div class="Berita-UBM">
+            <h1>Berita UBM</h1>
+        </div>
+        <br>
+
+      
+     <div class="container">
+        <div>
+             <div><img src="Cover-Press-Release-2-750x675.png" alt="gambar 1"></div>
+             <div>Business Clinic 8 BEC Kampus Serpong “Negotiation Psychology in Practice: Skills, Strategies, and Real Business Scenarios”</div>
+         </div>
+        <div>
+            <div><img src="Untitled-design-7-1080x675.jpg" alt="gambar 2"></div>
+            <div>Misa Rabu Abu 2026 – Kembali ke Ruang Hati: Bersama Bapa yang Melihat dalam Keheningan</div>
+        </div>
+        <div>
+            <div><img src="Untitled-design-6-960x720.jpg" alt="gambar 3"></div>
+            <div>Kunjungan Rumah Singgah Disabilitas “Spreading Joy, Coloring The World Of Gifted Children”</div>
+        </div>
+        <div>
+            <div><img src="Untitled-design-5-1080x675.jpg" alt="gambar 4"></div>
+            <div>Menolak Lupa Budaya Bangsa: Nusantara Odyssey Hidupkan Kembali Cerita Rakyat</div>
+        </div>
+     </div>
+    </body>
+</html>
