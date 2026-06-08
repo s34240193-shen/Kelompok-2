@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - DesignMe</title>
+
+  <meta name="description" content="Contact Us DesignMe">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/fonts/alan-sans@latest/index.css" />
+
+  <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+
+ <header class="navbar">
+        <div class="logo">DesignMe</div>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link active">HOME</a>
+            <a href="about us.html" class="nav-link">ABOUT US</a>
+            <a href="our_service.html" class="nav-link">SERVICES</a>
+            <a href="support us.html" class="nav-link">SUPPORT</a>
+            <a href="Contact us.html" class="nav-link">CONTACT</a>
+        </nav>
+    </header>
+
+  <section class="hero-section">
+    <div class="hero-container">
+      <h1 class="hero-title">Contact Us</h1>
+      <p class="hero-subtitle">Let's Create Something Amazing Together</p>
+    </div>
+
+    <div class="shape-yellow-ring"></div>
+    <div class="shape-pink-circle-right-hero"></div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-container">
+
+      <div class="contact-left">
+        <div class="map-card" id="mapCard">
+          <img src="aset/map.png" alt="Map Location" class="map-image">
+          <img src="aset/logo lokasi.png" alt="Location Pin" class="map-pin" id="mapPin">
+        </div>
+
+        <div class="contact-cards-container">
+
+          <div class="contact-card card-studio">
+            <div class="card-icon-wrapper">
+              <img src="aset/logo studio.png" alt="Studio Icon" class="card-icon">
+            </div>
+            <h3 class="card-title">Studio</h3>
+            <p class="card-text">Jl. Creative Studio No. 21, Jakarta, Indonesia</p>
+          </div>
+
+          <div class="contact-card card-email">
+            <div class="card-icon-wrapper">
+              <img src="aset/logo email.png" alt="Email Icon" class="card-icon">
+            </div>
+            <h3 class="card-title">Email</h3>
+            <p class="card-text">hello@designme.id</p>
+          </div>
+
+          <div class="contact-card card-whatsapp">
+            <div class="card-icon-wrapper">
+              <img src="aset/logo whatsapp.png" alt="Whatsapp Icon" class="card-icon">
+            </div>
+            <h3 class="card-title">Whatsapp</h3>
+            <p class="card-text">+62 812-3456-7890</p>
+          </div>
+
+          <div class="contact-card card-instagram">
+            <div class="card-icon-wrapper">
+              <img src="aset/logo instagram.png" alt="Instagram Icon" class="card-icon">
+            </div>
+            <h3 class="card-title">Instagram</h3>
+            <p class="card-text">@designme.id</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <h2 class="form-section-title">Have a Project In Mind?</h2>
+        <p class="form-section-desc">
+          DesignMe is ready to help bring your ideas to life through creative, modern, and impactful design solutions.
+        </p>
+
+        <form class="contact-form" id="contactForm" onsubmit="event.preventDefault();">
+          <div class="form-group">
+            <label for="inputName" class="form-label">Name</label>
+            <input type="text" id="inputName" class="form-input" placeholder="Your Name..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" id="inputEmail" class="form-input" placeholder="abc@gmail.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="inputSubjectText" class="form-label">Subject</label>
+            <input type="text" id="inputSubjectText" class="form-input" placeholder="Title" required>
+          </div>
+
+          <div class="form-group">
+            <label for="inputMessage" class="form-label">Subject</label>
+            <textarea id="inputMessage" class="form-textarea" placeholder="Type Here..." required></textarea>
+          </div>
+
+          <button type="submit" id="btnSend" class="btn-submit">Send Now</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+    <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">DesignMe</div>
+      <div class="footer-contact">
+        <h3 class="contact-title">Contact Us</h3>
+        <p class="contact-detail">Jl. Creative Studio No. 21, Jakarta, Indonesia<br>
+          +62 812-3456-7890<br>
+          Email: hello@designme.id<br>
+          Website: www.designme.id<br>
+          Instagram: @designme.id</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
